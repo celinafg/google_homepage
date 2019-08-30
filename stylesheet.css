@@ -1,4 +1,117 @@
-nav {
-    float: left;
-    color: blue;
+.wrapper {
+    margin: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 0.7em;
+    padding-right: 2em;
 }
+
+nav {
+    float: right;
+    word-spacing: 0.7em;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.nav:link {
+    color: hsl(0, 0%, 12%);
+    text-decoration: none;
+}
+
+.nav:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 1em;
+    letter-spacing: -0.16em;
+    font-weight: 600;
+}
+
+.g {
+    color: rgb(72, 133, 237);
+}
+
+.o {
+    color: rgb(219, 50, 54);
+}
+
+.z {
+    color: rgb(244, 194, 13);
+}
+
+.l {
+    color: rgb(60, 186, 84);
+}
+
+.form {
+    display: block;
+    text-align: center;
+    margin: -3em;
+}
+
+.rounded:hover {
+    box-shadow: 8px 7px 13px hsl(0, 0%, 70%);
+}
+
+input.rounded {
+    width: 27%;
+    border-radius: 25px;
+    border: 0.2px solid hsla(0, 0%, 34%, 20%);
+    height: 40px;
+}
+
+.btn1, .btn2 {
+    height: 40px;
+    margin: 8px;
+    padding: 4px;
+    width: 7%;
+    border-radius: 5px;
+    border: none;
+    background-color: hsla(0, 0%, 92%);
+    font-size: 13.5px;
+    color: hsl(0, 0%, 30%);
+}
+
+.btn2 {
+    width: 9%;
+}
+
+.btn {
+    margin: 20px auto;
+    padding: 3.4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-items: space-between;
+    
+
+}
+
+.btn1:hover, .btn2:hover {
+    border: 0.5px solid hsl(0, 0%, 70%);
+}
+
+.languages {
+    text-align: center;
+    margin: -.5em;
+    font-size: 0.8em;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+    border: hsl(0, 0%, 90%);
+    color: hsl(0, 0%, 12%);
+    text-align: left;
+    padding: 0px 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
